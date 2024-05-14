@@ -32,7 +32,21 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+.h100{height: 100px;}
+.h350{height: 350px;}
+
+.img1 {
+  background-image: url(../public/img/bg1.jpg);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.cy:hover {
+  color: #ffba00;
 }
