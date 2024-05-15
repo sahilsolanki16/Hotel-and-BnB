@@ -37,16 +37,130 @@
     transform: rotate(360deg);
   }
 }
-.h100{height: 100px;}
-.h350{height: 350px;}
+
 
 .img1 {
   background-image: url(../public/img/bg1.jpg);
   background-position: center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  
 }
+
+.img2 {
+  background-image: url(../public/img/hotel-linens.jpg);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  
+}
+
+
+.img3 {
+  background-image: url(../public/img/toileteries-free-img.jpg);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  
+}
+
+.img4 {
+  background-image: url(../public/img/breakfast-free-img.jpg);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  
+}
+
+.img5 {
+  background-image: url(../public/img/swimming-pool-free-img.jpg);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  
+}
+
+.img6 {
+  background-image: url(../public/img/hotel-massage.jpg);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  
+}
+
+.img7 {
+  background-image: url(../public/img/hotel-meal.jpg);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  
+}
+
+
+.img8 {
+  background-image: url(../public/img/bar-free-img.jpg);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  
+}
+
+
+.img9 {
+  background-image: url(../public/img/banquet-free-img.jpg);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  
+}
+
+.img10 {
+  background-image: url(../public/img/cta-bg-free-img.jpg);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+}
+.img11 {
+  background-image: url(../public/img/hotel-single-room.jpg);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  
+}
+
+
+.h100{height: 100px;}
+.h150{height: 150px;}
+.h200{height: 200px;}
+
+
+.h350{height: 350px;}
+.h80{height: 80px;}
+.h90{height: 90px;}
+.h50{height: 50px;}
+
+
+.bg-db { background: #1d394b; }
+
+
+
 
 .cy:hover {
   color: #ffba00;
+}
+
+.bg-y { background: #ffba00; color: white;}
+.bg-y:hover { color: black; transition: 1.5s;}
+
+
+.fs18 { font-size: 18px;}
+
+
+
+@media (max-width:500px) {
+  .h350 { height: 150px;}
+  .h150 { height: 10px;}
+
 }
