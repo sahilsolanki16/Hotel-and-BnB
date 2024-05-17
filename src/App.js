@@ -7,6 +7,7 @@ import Gallery from './Page/Gallery';
 import Packages from './Page/Packages';
 import Booking from './Page/Booking';
 import Footer from './Page/Footer';
+   
 
 function App() {
   return (
