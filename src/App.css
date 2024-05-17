@@ -38,6 +38,7 @@
   }
 }
 
+*{padding: 0 ; margin: 0; }
 
 .img1 {
   background-image: url(../public/img/bg1.jpg);
@@ -130,26 +131,57 @@
   
 }
 
+.img12 {
+  background-image: url(../public/img/executive-suite-free-img.jpg);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  
+}
+
+.img13 {
+  background-image: url(../public/img/double-room-free-img.jpg);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  
+}
+
+.img14 {
+  background-image: url(../public/img/duplex-suite-free-img.jpg);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  
+}
 
 .h100{height: 100px;}
 .h150{height: 150px;}
 .h200{height: 200px;}
+.h25{height: 25px;}
 
+.h50{height: 50px;}
 
 .h350{height: 350px;}
 .h80{height: 80px;}
 .h90{height: 90px;}
 .h50{height: 50px;}
 
-
-.bg-db { background: #1d394b; }
-
+.w-90 {width: 90%;}
 
 
+.bg-db { background: #052335; }
+.cdb { color: #061118; }
 
+
+
+
+.w100{width: 100%;}
 .cy:hover {
   color: #ffba00;
 }
+
+.bg-b { background: rgba(0, 0, 0, 0.541); width: 100%; height: 100%;}
 
 .bg-y { background: #ffba00; color: white;}
 .bg-y:hover { color: black; transition: 1.5s;}
@@ -157,10 +189,49 @@
 
 .fs18 { font-size: 18px;}
 
+.bs { box-shadow: 5px 5px 15px -2px rgb(177, 168, 168)}
+
+
+.fa {
+  padding: 15px;
+  font-size: 25px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #ffba00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.fa-snapchat-ghost {
+  background: #ffba00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.fa-instagram {
+  background: #ffba00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.fa-google {
+  background: #ffba00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.d-b{display: inline-block;}
+.fs20{font-size: 25px;}
 
 
 @media (max-width:500px) {
   .h350 { height: 150px;}
   .h150 { height: 10px;}
-
+  .fs20 {font-size: 15px;}
+  .d-b {display: block;}
 }
